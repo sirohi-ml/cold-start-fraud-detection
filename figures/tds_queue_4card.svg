@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="490" viewBox="0 0 420 490" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="420" height="490" rx="18" fill="#fff9e6" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Header -->
+  <text x="210" y="46" font-family="Impact,'Arial Black',sans-serif" font-size="24" fill="#c0392b" text-anchor="middle" letter-spacing="2">⚠ FRAUD REVIEW QUEUE</text>
+  <text x="210" y="68" font-family="Arial,sans-serif" font-size="11" font-weight="800" fill="#888" text-anchor="middle" letter-spacing="0.5">BEFORE: ESTABLISHED ORDER</text>
+
+  <!-- ── CARD 1 ── y=85 -->
+  <rect x="20" y="85" width="380" height="72" rx="12" fill="#ff6b6b" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="36" y="104" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+  <line x1="37" y1="108" x2="53" y2="108" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="112" x2="53" y2="112" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="116" x2="53" y2="116" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="95" y1="97" x2="95" y2="145" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+  <text x="74" y="132" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#1</text>
+  <text x="108" y="110" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 4521</text>
+  <text x="108" y="130" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">847 transactions · confident</text>
+  <text x="392" y="132" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#c0392b" text-anchor="end">0.94</text>
+
+  <!-- ── CARD 2 ── y=169 -->
+  <rect x="20" y="169" width="380" height="72" rx="12" fill="#ffa94d" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="36" y="188" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+  <line x1="37" y1="192" x2="53" y2="192" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="196" x2="53" y2="196" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="200" x2="53" y2="200" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="95" y1="181" x2="95" y2="229" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+  <text x="74" y="216" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#2</text>
+  <text x="108" y="194" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 8832</text>
+  <text x="108" y="214" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">312 transactions · confident</text>
+  <text x="392" y="216" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#c0392b" text-anchor="end">0.89</text>
+
+  <!-- ── CARD 3 ── y=253 -->
+  <rect x="20" y="253" width="380" height="72" rx="12" fill="#ffd43b" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="36" y="272" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+  <line x1="37" y1="276" x2="53" y2="276" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="280" x2="53" y2="280" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="284" x2="53" y2="284" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="95" y1="265" x2="95" y2="313" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+  <text x="74" y="300" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#3</text>
+  <text x="108" y="278" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 2201</text>
+  <text x="108" y="298" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">560 transactions · confident</text>
+  <text x="392" y="300" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#856404" text-anchor="end">0.85</text>
+
+  <!-- ── CARD 4 ── y=337 -->
+  <rect x="20" y="337" width="380" height="72" rx="12" fill="#a9e34b" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="36" y="356" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+  <line x1="37" y1="360" x2="53" y2="360" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="364" x2="53" y2="364" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="368" x2="53" y2="368" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="95" y1="349" x2="95" y2="397" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+  <text x="74" y="384" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#4</text>
+  <text x="108" y="362" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 6649</text>
+  <text x="108" y="382" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">420 transactions · confident</text>
+  <text x="392" y="384" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#2d6a2d" text-anchor="end">0.82</text>
+
+  <!-- Footer -->
+  <text x="210" y="436" font-family="Arial,sans-serif" font-size="11" font-weight="800" fill="#666" text-anchor="middle">4 confident cards · ordered by fraud probability</text>
+  <text x="210" y="455" font-family="Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">naive placement · cold card not yet arrived · PTKR = 0%</text>
+
+</svg>

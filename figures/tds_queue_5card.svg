@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="570" viewBox="0 0 420 570" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripe" patternUnits="userSpaceOnUse" width="14" height="14" patternTransform="rotate(45)">
+      <rect width="7" height="14" fill="#ffffff"/>
+      <rect x="7" width="7" height="14" fill="#ffe3e3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="420" height="570" rx="18" fill="#fff9e6" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Header -->
+  <text x="210" y="46" font-family="Impact,'Arial Black',sans-serif" font-size="24" fill="#c0392b" text-anchor="middle" letter-spacing="2">⚠ FRAUD REVIEW QUEUE</text>
+  <text x="210" y="68" font-family="Arial,sans-serif" font-size="11" font-weight="800" fill="#c0392b" text-anchor="middle" letter-spacing="0.5">AFTER: NEW CARD CRASHES IN</text>
+
+  <!-- ── CARD 1 ── y=85, unchanged -->
+  <rect x="20" y="85" width="380" height="72" rx="12" fill="#ff6b6b" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="36" y="104" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+  <line x1="37" y1="108" x2="53" y2="108" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="112" x2="53" y2="112" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="37" y1="116" x2="53" y2="116" stroke="#6b5300" stroke-width="0.8"/>
+  <line x1="95" y1="97" x2="95" y2="145" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+  <text x="74" y="132" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#1</text>
+  <text x="108" y="110" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 4521</text>
+  <text x="108" y="130" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">847 transactions · confident</text>
+  <text x="392" y="132" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#c0392b" text-anchor="end">0.94</text>
+
+  <!-- ── NEW CARD ── y=169, striped + dashed -->
+  <rect x="20" y="169" width="380" height="72" rx="12" fill="url(#stripe)" stroke="#c0392b" stroke-width="3" stroke-dasharray="7,4"/>
+  <!-- Red "uncertain" chip -->
+  <rect x="36" y="188" width="18" height="14" rx="3" fill="#ff4757" stroke="#8b0000" stroke-width="1.5"/>
+  <text x="45" y="199" font-family="Impact,sans-serif" font-size="12" fill="white" text-anchor="middle">?</text>
+  <line x1="95" y1="181" x2="95" y2="229" stroke="rgba(192,57,43,0.2)" stroke-width="1"/>
+  <text x="74" y="212" font-family="Impact,'Arial Black',sans-serif" font-size="18" fill="#c0392b" text-anchor="middle">NEW!</text>
+  <text x="108" y="194" font-family="'Courier New',monospace" font-size="11" fill="#c0392b" letter-spacing="1">···· ···· ···· ????</text>
+  <text x="108" y="214" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#c0392b">2 transactions · σ = 0.18</text>
+  <text x="392" y="212" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="#c0392b" text-anchor="end">0.91?</text>
+
+  <!-- ── OLD CARD 2 → NOW #3 ── y=253, tilt -2° -->
+  <g transform="rotate(-2, 210, 289)">
+    <rect x="20" y="253" width="380" height="72" rx="12" fill="#ffa94d" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="36" y="272" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+    <line x1="37" y1="276" x2="53" y2="276" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="37" y1="280" x2="53" y2="280" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="37" y1="284" x2="53" y2="284" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="95" y1="265" x2="95" y2="313" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+    <text x="74" y="300" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#3</text>
+    <text x="108" y="278" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 8832</text>
+    <text x="108" y="298" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">312 transactions · confident</text>
+    <text x="392" y="300" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#c0392b" text-anchor="end">0.89</text>
+  </g>
+
+  <!-- ── OLD CARD 3 → NOW #4 ── y=337, tilt +1.5° -->
+  <g transform="rotate(1.5, 210, 373)">
+    <rect x="20" y="337" width="380" height="72" rx="12" fill="#ffd43b" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="36" y="356" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+    <line x1="37" y1="360" x2="53" y2="360" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="37" y1="364" x2="53" y2="364" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="37" y1="368" x2="53" y2="368" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="95" y1="349" x2="95" y2="397" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+    <text x="74" y="384" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#4</text>
+    <text x="108" y="362" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 2201</text>
+    <text x="108" y="382" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">560 transactions · confident</text>
+    <text x="392" y="384" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#856404" text-anchor="end">0.85</text>
+  </g>
+
+  <!-- ── OLD CARD 4 → NOW #5 ── y=421, tilt -1° -->
+  <g transform="rotate(-1, 210, 457)">
+    <rect x="20" y="421" width="380" height="72" rx="12" fill="#a9e34b" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="36" y="440" width="18" height="14" rx="3" fill="#b8860b" stroke="#8b6914" stroke-width="1.5"/>
+    <line x1="37" y1="444" x2="53" y2="444" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="37" y1="448" x2="53" y2="448" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="37" y1="452" x2="53" y2="452" stroke="#6b5300" stroke-width="0.8"/>
+    <line x1="95" y1="433" x2="95" y2="481" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+    <text x="74" y="468" font-family="Impact,'Arial Black',sans-serif" font-size="26" fill="rgba(0,0,0,0.28)" text-anchor="middle">#5</text>
+    <text x="108" y="446" font-family="'Courier New',monospace" font-size="11" fill="rgba(0,0,0,0.38)" letter-spacing="1">···· ···· ···· 6649</text>
+    <text x="108" y="466" font-family="Arial,sans-serif" font-size="12" font-weight="900" fill="#1a1a1a">420 transactions · confident</text>
+    <text x="392" y="468" font-family="Impact,'Arial Black',sans-serif" font-size="30" fill="#2d6a2d" text-anchor="end">0.82</text>
+  </g>
+
+  <!-- ── SPEED LINES radiating from impact point ── -->
+  <g stroke="#ffb300" stroke-width="2.2" stroke-linecap="round" opacity="0.75">
+    <line x1="306" y1="151" x2="280" y2="129"/>
+    <line x1="350" y1="136" x2="350" y2="110"/>
+    <line x1="302" y1="175" x2="272" y2="175"/>
+    <line x1="312" y1="160" x2="290" y2="136"/>
+  </g>
+
+  <!-- ── SPARK SYMBOLS ── -->
+  <text x="105" y="163" font-family="serif" font-size="20" fill="#ffd43b" text-anchor="middle" transform="rotate(-20,105,163)">✦</text>
+  <text x="144" y="149" font-family="serif" font-size="16" fill="#ff6b6b" text-anchor="middle" transform="rotate(15,144,149)">★</text>
+  <text x="76" y="151" font-family="serif" font-size="18" fill="#ffd43b" text-anchor="middle" transform="rotate(-30,76,151)">✦</text>
+
+  <!-- ── BUMP! STARBURST ── 8-point star centred at (350,175) outer=36 inner=16 -->
+  <polygon points="350,139 361.3,163.7 386,175 361.3,186.3 350,211 338.7,186.3 314,175 338.7,163.7"
+           fill="#ffd43b" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="350" y="183" font-family="Impact,'Arial Black',sans-serif" font-size="21" fill="#ff4757" text-anchor="middle" letter-spacing="0.5">BUMP!</text>
+
+  <!-- Footer -->
+  <text x="210" y="518" font-family="Arial,sans-serif" font-size="11" font-weight="800" fill="#c0392b" text-anchor="middle">PTKR = 50% · 3 high-confidence cards displaced</text>
+  <text x="210" y="537" font-family="Arial,sans-serif" font-size="10" fill="#aaa" text-anchor="middle">naive placement · uncertain new card jumps the queue</text>
+
+</svg>

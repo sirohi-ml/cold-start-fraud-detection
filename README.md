@@ -70,10 +70,10 @@ Standard ranking metrics like NDCG are blind to *who* caused disruption in a rev
 
 | Strategy | NDCG@10 (t=0) | NDCG@10 (t=60) | PTKR peak | 80% Convergence |
 |---|---|---|---|---|
-| Naive | 0.999 | 0.9999 | **28.2%** | step 22 |
-| LCB | 0.999 | 0.9998 | **2.5%** | >60 |
-| Tiered | 0.999 | 0.9998 | **0.0%** | >60 |
-| Random | 0.999 | 0.9987 | 9.7% | >60 |
+| Naive | 0.9989 | 0.9999 | **29.6%** | step 26 |
+| LCB | 0.999 | 0.9998 | **1.9%** | >60 |
+| Tiered | 0.9989 | 0.9998 | **0.0%** | >60 |
+| Random | 0.9988 | 0.9988 | 8.1% | >60 |
 
 ### IEEE-CIS real-data experiment (`ieee_experiment.py`, K=20, 20 steps, 60 cold cards)
 
@@ -84,7 +84,7 @@ Standard ranking metrics like NDCG are blind to *who* caused disruption in a rev
 | Tiered | 0.9921 | 0.9982 | 0.0% | step 8 |
 | Random | 0.9898 | 0.9896 | 0.17% | >20 |
 
-Naive placement peaks at 28.2% PTKR on the synthetic data; LCB and Tiered reduce this to 0–3% at negligible cost to NDCG. The IEEE-CIS run confirms the same direction on real, noisier data: LCB and Tiered converge to the oracle ranking almost immediately, while Naive and Random stay unconverged through the full 20-step window.
+Naive placement peaks at 29.6% PTKR on the synthetic data; LCB and Tiered reduce this to 0–2% at negligible cost to NDCG. The IEEE-CIS run confirms the same direction on real, noisier data: LCB and Tiered converge to the oracle ranking almost immediately, while Naive and Random stay unconverged through the full 20-step window.
 
 ## Setup
 
